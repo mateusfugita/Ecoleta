@@ -19,6 +19,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://expo.io/)
 
 ## Como rodar o projeto
+### Criando o banco de dados
+```
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Ecoleta
+
+# Vá para a pasta Backend
+$ cd server
+
+# Crie o banco de dados
+$ npm run knex:migrate
+
+# Adicione os items de coleta no BD
+$ npm run knex:seed
+```
+
 ### Executando o Backend
 ```
 # Acesse a pasta do projeto no terminal/cmd
@@ -67,5 +82,6 @@ $ npm install
 # Execute a aplicação
 $ npm start
 
-# A aplicação será aberta na porta:19000. Leia o QR Code com seu celular ou utilize um simulador IOS ou Android para executar o projeto
+# A aplicação será aberta na porta:19000. Leia o QR Code com seu celular 
+ou utilize um simulador IOS ou Android para executar o projeto
 ```
